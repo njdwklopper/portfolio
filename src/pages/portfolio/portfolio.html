@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Jonathan Klopper's Portfolio</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content no-padding class="portfolio-page">
+  <ion-grid>
+    <ion-row>
+      <ion-col></ion-col>
+      <ion-col>
+        <ion-card *ngFor="let project of projects" no-lines no-padding margin class="portfolio-card">
+          <ion-grid>
+            <ion-row>
+              <ion-title>{{project.title}}</ion-title>
+            </ion-row>
+            <ion-row padding>
+              {{project.description}}
+            </ion-row>
+            <ion-row padding>
+              <img src="{{getImage(project.image)}}" style="height: 10%">
+            </ion-row>
+          </ion-grid>
+        </ion-card>
+      </ion-col>
+      <ion-col></ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
