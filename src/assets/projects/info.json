@@ -1,0 +1,14 @@
+{
+  "projects": [
+    {
+      "title": "Club 21",
+      "description": "My first Mobile Application Game with socket server connection. Great Dealing animations and a first Black Jack Game in South Africa. The game was very popular on Mobile App Booklets (Before App stores).",
+      "image": "club21.png"
+    },
+    {
+      "title": "Pirate's Pearls",
+      "description": "My first Mobile Application Action Game, using a popular match 3 formula at the time.",
+      "image": "piratePearls.png"
+    }
+  ]
+}
