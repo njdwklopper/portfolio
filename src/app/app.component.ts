@@ -1,17 +1,37 @@
-import {Component} from '@angular/core';
-import {Platform} from 'ionic-angular';
-
-import {TabsPage} from '../pages/tabs/tabs';
+import { Component } from '@angular/core';
+import { Platform } from '@ionic/angular';
 
 @Component({
-  templateUrl: 'app.html'
+  selector: 'app-root',
+  templateUrl: 'app.component.html'
 })
-export class MyApp {
-  rootPage: any = TabsPage;
+export class AppComponent {
+  public appPages = [
+    {
+      title: 'Home',
+      url: '/home',
+      icon: 'home'
+    },
+    {
+      title: 'Portfolio',
+      url: '/portfolio',
+      icon: 'list'
+    },
+    {
+      title: 'List',
+      url: '/list',
+      icon: 'list'
+    }
+  ];
 
-  constructor(platform: Platform) {
-    platform.ready().then(() => {
+  constructor(
+    private platform: Platform
+  ) {
+    this.initializeApp();
+  }
 
+  initializeApp() {
+    this.platform.ready().then(() => {
     });
   }
 }

@@ -1,43 +1,28 @@
-import { NgModule, ErrorHandler } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
-import { MyApp } from './app.component';
+import {NgModule} from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {RouteReuseStrategy} from '@angular/router';
 
-import { AboutPage } from '../pages/about/about';
-import { ContactPage } from '../pages/contact/contact';
-import { HomePage } from '../pages/home/home';
-import { TabsPage } from '../pages/tabs/tabs';
+import {IonicModule, IonicRouteStrategy} from '@ionic/angular';
 
-import { ProjectsProvider } from '../providers/projects/projects';
-import {PortfolioPage} from "../pages/portfolio/portfolio";
-import {HttpClientModule} from "@angular/common/http";
+import {AppComponent} from './app.component';
+import {AppRoutingModule} from './app-routing.module';
+import {PortfolioService} from './portfolio/portfolio.service';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
-  declarations: [
-    MyApp,
-    AboutPage,
-    ContactPage,
-    HomePage,
-    PortfolioPage,
-    TabsPage
-  ],
-  imports: [
-    BrowserModule,
-    IonicModule.forRoot(MyApp),
-    HttpClientModule,
-  ],
-  bootstrap: [IonicApp],
-  entryComponents: [
-    MyApp,
-    AboutPage,
-    ContactPage,
-    HomePage,
-    PortfolioPage,
-    TabsPage
-  ],
-  providers: [
-    {provide: ErrorHandler, useClass: IonicErrorHandler},
-    ProjectsProvider
-  ]
+    declarations: [AppComponent],
+    entryComponents: [],
+    imports: [
+        BrowserModule,
+        IonicModule.forRoot(),
+        HttpClientModule,
+        AppRoutingModule
+    ],
+    providers: [
+        PortfolioService,
+        {provide: RouteReuseStrategy, useClass: IonicRouteStrategy}
+    ],
+    bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule {
+}
