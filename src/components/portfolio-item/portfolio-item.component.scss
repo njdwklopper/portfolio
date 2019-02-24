@@ -1,0 +1,21 @@
+.portfolio-card {
+  --background: var(--ion-color-light);
+  //text-decoration-color: var($root, primary, base);
+  ion-title {
+    text-decoration-color: var(--ion-color-dark);
+    font-weight: bold;
+  }
+
+  .card-image-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .portfolio-card-image {
+      //height: 30vh !important;
+    }
+  }
+
+  .card-description {
+  }
+}

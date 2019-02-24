@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {PortfolioService} from './portfolio.service';
+import {KlopperService} from '../../providers/klopper.service';
 
 @Component({
     selector: 'app-portfolio',
@@ -10,7 +10,7 @@ export class PortfolioPage implements OnInit {
 
     projects = [];
 
-    constructor(private projectService: PortfolioService) {
+    constructor(private projectService: KlopperService) {
     }
 
     ngOnInit() {
@@ -20,9 +20,5 @@ export class PortfolioPage implements OnInit {
         }, error => {
             console.log(`Error: ${JSON.stringify(error)}`);
         });
-    }
-
-    getImage(image) {
-        return this.projectService.getImageURL() + image;
     }
 }

@@ -1,0 +1,13 @@
+<ion-card padding margin class="portfolio-card">
+    <ion-grid>
+        <ion-row>
+            <ion-title>{{project.title}}</ion-title>
+        </ion-row>
+        <ion-row padding class="card-image-holder">
+            <img src="{{getImageURL(project.image)}}" class="portfolio-card-image" alt="./assets/shapes.svg">
+        </ion-row>
+        <ion-row padding class="card-description">
+            {{project.description}}
+        </ion-row>
+    </ion-grid>
+</ion-card>

@@ -6,7 +6,7 @@ import {IonicModule, IonicRouteStrategy} from '@ionic/angular';
 
 import {AppComponent} from './app.component';
 import {AppRoutingModule} from './app-routing.module';
-import {PortfolioService} from './portfolio/portfolio.service';
+import {KlopperService} from '../providers/klopper.service';
 import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
@@ -19,7 +19,7 @@ import {HttpClientModule} from '@angular/common/http';
         AppRoutingModule
     ],
     providers: [
-        PortfolioService,
+        KlopperService,
         {provide: RouteReuseStrategy, useClass: IonicRouteStrategy}
     ],
     bootstrap: [AppComponent]

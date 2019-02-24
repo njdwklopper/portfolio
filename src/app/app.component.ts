@@ -13,14 +13,19 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'Portfolio',
+      title: 'Portfolio (WIP)',
       url: '/portfolio',
+      icon: 'book'
+    },
+    {
+      title: 'Skills List',
+      url: '/list',
       icon: 'list'
     },
     {
-      title: 'List',
-      url: '/list',
-      icon: 'list'
+      title: 'Github',
+      url: 'https://github.com/njdwklopper/portfolio',
+      icon: 'git-branch'
     }
   ];
 

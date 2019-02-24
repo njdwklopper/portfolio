@@ -1,0 +1,20 @@
+.welcome-card {
+  position: relative;
+  display: inline;
+  overflow: hidden;
+}
+
+.back-image{  max-height: 45vh;
+  margin: 13px;
+  position: relative;
+  overflow: hidden;
+}
+
+.mug-img {
+  max-height: 17vh;
+  max-width: 15vh;
+  position: absolute;
+  //top: 3%;
+  left: 1%;
+  bottom: 3%;
+}

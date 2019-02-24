@@ -1,0 +1,34 @@
+{
+  "skills": [
+    {
+      "skill": "Mobile Developer",
+      "time": "13 years",
+      "icon": "call"
+    },
+    {
+      "skill": "Android Native Developer",
+      "time": "10 years",
+      "icon": "phone-portrait"
+    },
+    {
+      "skill": "Angular+",
+      "time": "6 Months",
+      "icon": "globe"
+    },
+    {
+      "skill": "JAVA",
+      "time": "13 years",
+      "icon": "beer"
+    },
+    {
+      "skill": "Kotlin",
+      "time": "6 Months",
+      "icon": "umbrella"
+    },
+    {
+      "skill": "Typescript",
+      "time": "6 Months",
+      "icon": "logo-javascript"
+    }
+  ]
+}

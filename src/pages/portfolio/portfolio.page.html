@@ -1,0 +1,9 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>Jonathan Klopper's Portfolio</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content no-padding class="portfolio-page">
+    <app-portfolio-item *ngFor="let project of projects" [project]="project"></app-portfolio-item>
+</ion-content>

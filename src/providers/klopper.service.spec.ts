@@ -1,12 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 
-import { PortfolioService } from './portfolio.service';
+import { KlopperService } from './klopper.service';
 
-describe('PortfolioService', () => {
+describe('KlopperService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: PortfolioService = TestBed.get(PortfolioService);
+    const service: KlopperService = TestBed.get(KlopperService);
     expect(service).toBeTruthy();
   });
 });
