@@ -17,11 +17,11 @@ export class AppComponent {
       url: '/portfolio',
       icon: 'paper'
     },
-    {
-      title: 'Experience',
-      url: '/experience',
-      icon: 'logo-android'
-    },
+    // {
+    //   title: 'Experience',
+    //   url: '/experience',
+    //   icon: 'logo-android'
+    // },
     {
       title: 'Skills List',
       url: '/list',
