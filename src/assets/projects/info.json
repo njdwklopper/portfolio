@@ -9,6 +9,26 @@
       "title": "Pirate's Pearls",
       "description": "My first Mobile Application Action Game, using a popular match 3 formula at the time.",
       "image": "piratePearls.png"
+    },
+    {
+      "title": "Pharaoh's Fortune",
+      "description": "Marketing Game for a new Casino, a Slot Machine where players could win actual prizes (Not Money). Winners was still determined Server-Side, but via Random Draw. I used a blur effect from Photoshop to FAKE speed when the wheels spun. This was in 2007 and I have never seen anyone else do this effect like this, which I'm Proud of.",
+      "image": "pharaohsFortune.png"
+    },
+    {
+      "title": "Pyramids of Treasure",
+      "description": "Another slot machine game, for another company with more elaborate combinations, also Server-Side Win draw.",
+      "image": "pyramidsOfTreasure.png"
+    },
+    {
+      "title": "Taxi Jam",
+      "description": "Rush Hour game clone, but with a South African twist. The vehicles even had damage applied when trying to pass an impassible car (block).",
+      "image": "taxiJam.png"
+    },
+    {
+      "title": "Tetra Lift",
+      "description": "A marketing campaign from Puma's shoes. The idea was that the shoes were so light, they float. So we made a Tetris clone, where the blocks would float upwards, instead of dropping downwards. The shoes were in the Tetris Blocks, making them float.",
+      "image": "tetraLift.png"
     }
   ]
 }

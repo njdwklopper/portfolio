@@ -15,7 +15,12 @@ export class AppComponent {
     {
       title: 'Portfolio (WIP)',
       url: '/portfolio',
-      icon: 'book'
+      icon: 'paper'
+    },
+    {
+      title: 'Experience',
+      url: '/experience',
+      icon: 'logo-android'
     },
     {
       title: 'Skills List',
@@ -24,7 +29,7 @@ export class AppComponent {
     },
     {
       title: 'Github',
-      url: 'https://github.com/njdwklopper/portfolio',
+      url: '/github',
       icon: 'git-branch'
     }
   ];

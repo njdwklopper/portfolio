@@ -18,6 +18,10 @@ const routes: Routes = [
     {
         path: 'list',
         loadChildren: '../pages/list/list.module#ListPageModule'
+    },
+    {
+        path: 'github',
+        loadChildren: '../pages/github/github.module#GithubPageModule'
     }
 ];
 

@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "title": "This Whole Portfolio Web Page",
+      "description": "Written in Ionic 4 and Angular 6, static Json objects that represent THIS data, but fetched via Rx reactive structures",
+      "image": "http://image.link",
+      "link": "http://linkhere"
+    },
+    {
+      "title": "Android Dynamic Keypad",
+      "description": "Android Keypad Library to enter Keycodes directly on the UI (No Keyboard needed). Using MVVM and Databinding.",
+      "image": "http://image.link",
+      "link": "http://linkhere"
+    }
+  ]
+}
