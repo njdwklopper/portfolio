@@ -9,6 +9,7 @@
 
 <ion-content no-padding class="github-page">
   <ion-grid wrap-reverse>
+    <ion-label class="github-click-label">Click on any of the tiles to view GitHub Project...</ion-label>
     <ion-row>
       <ion-col *ngFor="let project of projects">
         <app-github-item [project]="project"></app-github-item>
