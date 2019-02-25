@@ -1,34 +1,44 @@
 {
   "projects": [
     {
-      "title": "Club 21",
-      "description": "My first Mobile Application Game with socket server connection. Great Dealing animations and a first Black Jack Game in South Africa. The game was very popular on Mobile App Booklets (Before App stores).",
+      "title": "J2ME - Club 21",
+      "description": "My first Mobile Application Game with socket server connection.\n\nGreat Dealing animations and a first Black Jack Game in South Africa. The game was very popular on Mobile App Booklets (Before App stores).",
       "image": "club21.png"
     },
     {
-      "title": "Pirate's Pearls",
+      "title": "J2ME - Pirate's Pearls",
       "description": "My first Mobile Application Action Game, using a popular match 3 formula at the time.",
       "image": "piratePearls.png"
     },
     {
-      "title": "Pharaoh's Fortune",
+      "title": "J2ME - Pharaoh's Fortune",
       "description": "Marketing Game for a new Casino, a Slot Machine where players could win actual prizes (Not Money). Winners was still determined Server-Side, but via Random Draw. I used a blur effect from Photoshop to FAKE speed when the wheels spun. This was in 2007 and I have never seen anyone else do this effect like this, which I'm Proud of.",
       "image": "pharaohsFortune.png"
     },
     {
-      "title": "Pyramids of Treasure",
+      "title": "J2ME - Pyramids of Treasure",
       "description": "Another slot machine game, for another company with more elaborate combinations, also Server-Side Win draw.",
       "image": "pyramidsOfTreasure.png"
     },
     {
-      "title": "Taxi Jam",
+      "title": "J2ME - Taxi Jam",
       "description": "Rush Hour game clone, but with a South African twist. The vehicles even had damage applied when trying to pass an impassible car (block).",
       "image": "taxiJam.png"
     },
     {
-      "title": "Tetra Lift",
+      "title": "J2ME - Tetra Lift",
       "description": "A marketing campaign from Puma's shoes. The idea was that the shoes were so light, they float. So we made a Tetris clone, where the blocks would float upwards, instead of dropping downwards. The shoes were in the Tetris Blocks, making them float.",
       "image": "tetraLift.png"
+    },
+    {
+      "title": "Android - Fedhealth Medical client/broker",
+      "description": "A marketing campaign from Puma's shoes. The idea was that the shoes were so light, they float. So we made a Tetris clone, where the blocks would float upwards, instead of dropping downwards. The shoes were in the Tetris Blocks, making them float.",
+      "image": "tetraLift.png"
+    },
+    {
+      "title": "//TODO: completed Projects being added...",
+      "description": "Still adding projects (Android, Blackberry, Web, Spring, etc).\n\n//TODO: Adding better description for above projects...",
+      "image": ""
     }
   ]
 }

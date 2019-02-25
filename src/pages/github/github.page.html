@@ -1,9 +1,18 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>github</ion-title>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Jonathan Klopper's Github Projects</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
-
+<ion-content no-padding class="github-page">
+  <ion-grid wrap-reverse>
+    <ion-row>
+      <ion-col *ngFor="let project of projects">
+        <app-github-item [project]="project"></app-github-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

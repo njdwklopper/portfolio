@@ -1,13 +1,13 @@
-<ion-card padding margin class="portfolio-card">
+<ion-card padding class="portfolio-card">
     <ion-grid>
         <ion-row>
             <ion-title>{{project.title}}</ion-title>
         </ion-row>
-        <ion-row padding class="card-image-holder">
+        <ion-row padding class="card-image-holder" *ngIf="project.image">
             <img src="{{getImageURL(project.image)}}" alt="./assets/shapes.svg">
         </ion-row>
         <ion-row padding class="card-description">
-            {{project.description}}
+            <p style="margin-bottom: 2rem;white-space:pre-wrap;">{{project.description}}</p>
         </ion-row>
     </ion-grid>
 </ion-card>

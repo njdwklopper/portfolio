@@ -9,6 +9,7 @@ import {catchError} from 'rxjs/operators';
 export class KlopperService {
     static PROJECTS_URL = `./assets/projects/`;
     static SKILLS_URL = `./assets/skills/`;
+    static GITHUB_URL = `./assets/github/`;
 
     constructor(private http: HttpClient) {
         console.log('Hello ProjectsProvider Provider');
@@ -28,6 +29,18 @@ export class KlopperService {
 
     getSkills(): Observable<any> {
         const result: Observable<Object> = this.http.get(`${KlopperService.SKILLS_URL}skills.json`);
+        console.log('View Result Response: ' + JSON.stringify(result));
+        return result.pipe(
+            catchError(
+                (error: HttpErrorResponse) => {
+                    return Observable.throw(error);
+                }
+            )
+        );
+    }
+
+    getGithub(): Observable<any> {
+        const result: Observable<Object> = this.http.get(`${KlopperService.GITHUB_URL}info.json`);
         console.log('View Result Response: ' + JSON.stringify(result));
         return result.pipe(
             catchError(

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {KlopperService} from '../../providers/klopper.service';
 
 @Component({
   selector: 'app-github',
@@ -7,9 +8,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GithubPage implements OnInit {
 
-  constructor() { }
+  projects = [];
 
-  ngOnInit() {
+  constructor(private projectService: KlopperService) {
   }
 
+  ngOnInit() {
+    this.projectService.getGithub().subscribe(projects => {
+      console.log(JSON.stringify(projects));
+      this.projects = projects.projects;
+    }, error => {
+      console.log(`Error: ${JSON.stringify(error)}`);
+    });
+  }
 }

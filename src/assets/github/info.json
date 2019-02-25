@@ -1,16 +1,52 @@
 {
   "projects": [
     {
-      "title": "This Whole Portfolio Web Page",
+      "title": "This Portfolio Web Page",
       "description": "Written in Ionic 4 and Angular 6, static Json objects that represent THIS data, but fetched via Rx reactive structures",
-      "image": "http://image.link",
-      "link": "http://linkhere"
+      "image": "",
+      "link": "https://github.com/njdwklopper/portfolio"
+    },
+    {
+      "title": "Android Compass Tape",
+      "description": "Just like recent FPS Video Games, but using sensors this library draws a Compass tape using real world location data. Can be overlaid any views.",
+      "image": "",
+      "link": "https://github.com/njdwklopper/android-view-compass-tape"
+    },
+    {
+      "title": "Android Java Mail Builder Lib",
+      "description": "Use Java Mail Library in Android using a Builder Pattern Approach. Send mails directly, without Actioning an Intent, from your Android App",
+      "image": "",
+      "link": "https://github.com/njdwklopper/android-simple-java-mail"
+    },
+    {
+      "title": "Android BiTWidget",
+      "description": "When Bitcoin was still a big deal, using a simple API call to Luno, without sign-in to display within a widget Bitcoin Value in your currency.",
+      "image": "",
+      "link": "https://github.com/njdwklopper/BiTwidget"
+    },
+    {
+      "title": "Android Matrix Rain Effect Wear and Live Wallpaper",
+      "description": "The Popular Matrix Movie Rain Effect, shared from the same Library Module but used separately on WearOs and as a Live Wallpaper.",
+      "image": "",
+      "link": "https://github.com/njdwklopper/rainWear"
+    },
+    {
+      "title": "LibGDX Anagram Word Game (TDD'd no Views yet)",
+      "description": "Oh My Word Game. Wrote the \"Word\" Engine in Test Environment first, still have to do the Visuals.",
+      "image": "",
+      "link": "https://github.com/njdwklopper/omwg"
+    },
+    {
+      "title": "LibGDX Maze Generator and AI Solver",
+      "description": "Using the LibGDX Game Engine, I created a maze generator, which then via another routine, solves the generated maze visually.",
+      "image": "",
+      "link": "https://github.com/njdwklopper/maze-solver-libgdx"
     },
     {
       "title": "Android Dynamic Keypad",
       "description": "Android Keypad Library to enter Keycodes directly on the UI (No Keyboard needed). Using MVVM and Databinding.",
-      "image": "http://image.link",
-      "link": "http://linkhere"
+      "image": "https://camo.githubusercontent.com/812ac1508d11260f3d468ae222639927410e1aa0/68747470733a2f2f7468756d62732e6766796361742e636f6d2f44616e6765726f75734c696d7048616b652d73697a655f726573747269637465642e676966",
+      "link": "https://github.com/njdwklopper/android-view-keypad"
     }
   ]
 }

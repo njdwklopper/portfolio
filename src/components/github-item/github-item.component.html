@@ -1,0 +1,13 @@
+<ion-card padding margin class="github-card" (click)="openLink(project.link)">
+  <ion-grid>
+    <ion-row>
+      <ion-title>{{project.title}}</ion-title>
+    </ion-row>
+    <ion-row padding class="card-image-holder" *ngIf="project.image">
+      <img src="{{project.image}}" alt="">
+    </ion-row>
+    <ion-row *ngIf="project.description" padding class="card-description">
+      {{project.description}}
+    </ion-row>
+  </ion-grid>
+</ion-card>
