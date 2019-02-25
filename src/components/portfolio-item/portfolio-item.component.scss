@@ -1,19 +1,38 @@
 .portfolio-card {
   margin: 0 0 5vh 0 !important;
+  padding: 1.3vh !important;
   --background: var(--ion-color-light);
   //text-decoration-color: var($root, primary, base);
   height: 100% !important;
+  min-width: 18vw;
 
-  ion-title {
-    text-decoration-color: var(--ion-color-dark);
-    font-weight: bold;
+  .card-header {
+    padding: 0 0 1vh 0;
+
+    .car-icon {
+      padding: 0;
+      margin: 0;
+      height: 6vh;
+      width: 7vh;
+    }
+
+    .card-title {
+      text-decoration-color: var(--ion-color-dark);
+      font-size: 1.2em !important;
+      font-weight: bold;
+      display: flex;
+      justify-content: flex-start; /* align horizontal */
+      align-items: flex-end; /* align vertical */
+      margin: 0;
+      padding: 0;
+      white-space: pre-wrap;
+    }
   }
 
   .card-image-holder {
     display: flex;
     justify-content: center;
     align-items: center;
-
   }
 
   .card-description {

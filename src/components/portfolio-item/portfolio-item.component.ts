@@ -14,4 +14,8 @@ export class PortfolioItemComponent {
     getImageURL(image) {
         return `${KlopperService.PROJECTS_URL}/img/${image}`;
     }
+
+    getImageIcon(image) {
+        return `./assets/icon/${image}`;
+    }
 }

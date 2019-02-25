@@ -22,7 +22,8 @@ const routes: Routes = [
     {
         path: 'github',
         loadChildren: '../pages/github/github.module#GithubPageModule'
-    }
+    },
+  { path: 'contact', loadChildren: './contact/contact.module#ContactPageModule' }
 ];
 
 @NgModule({

@@ -1,12 +1,17 @@
 .github-card {
   margin: 0 0 5vh 0 !important;
+  padding: 1.3vh !important;
   --background: var(--ion-color-light);
   //text-decoration-color: var($root, primary, base);
   height: 100% !important;
 
-  ion-title {
+  .card-title {
     text-decoration-color: var(--ion-color-dark);
+    font-size: 1.3em !important;
     font-weight: bold;
+    margin: 0.7rem 0;
+    padding: 0;
+    white-space: pre-wrap;
   }
 
   .card-image-holder {
