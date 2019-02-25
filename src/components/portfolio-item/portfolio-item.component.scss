@@ -4,10 +4,10 @@
   --background: var(--ion-color-light);
   //text-decoration-color: var($root, primary, base);
   height: 100% !important;
-  min-width: 18vw;
+  min-width: 300px;
 
   .card-header {
-    padding: 0 0 1vh 0;
+    padding: 0 0 2vh 0;
 
     .car-icon {
       padding: 0;
@@ -30,6 +30,7 @@
   }
 
   .card-image-holder {
+    margin: 10px 0 10px 0 !important;
     display: flex;
     justify-content: center;
     align-items: center;
