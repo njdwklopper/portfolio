@@ -11,12 +11,20 @@ export class PortfolioItemComponent {
     @Input()
     project: any;
 
-    getImageURL(image) {
-        return `${KlopperService.PROJECTS_URL}/img/${image}`;
+    getImageURL(image: string) {
+        if (image.indexOf(`http`) >= 0) {
+            return image;
+        } else {
+            return `${KlopperService.PROJECTS_URL}/img/${image}`;
+        }
     }
 
     getImageIcon(image) {
-        return `./assets/icon/${image}`;
+        if (image) {
+            return `./assets/icon/${image}`;
+        } else {
+            return `./assets/icon/none_logo_icon.png`;
+        }
     }
 
     openLink(link) {

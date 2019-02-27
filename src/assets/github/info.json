@@ -3,7 +3,7 @@
     {
       "title": "This Portfolio Web Page",
       "sub": "2018",
-      "icon": "android_logo_icon.png",
+      "icon": "ionic_logo_icon.png",
       "description": "Written in Ionic 4 and Angular 6, static Json objects that represent THIS data, but fetched via Rx reactive structures",
       "image": "",
       "link": "https://github.com/njdwklopper/portfolio"
@@ -43,7 +43,7 @@
     {
       "title": "LibGDX Anagram Word Game (TDD'd no Views yet)",
       "sub": "2018",
-      "icon": "android_logo_icon.png",
+      "icon": "kotlin_logo_icon.png",
       "description": "Oh My Word Game. Wrote the \"Word\" Engine in Test Environment first, still have to do the Visuals.",
       "image": "",
       "link": "https://github.com/njdwklopper/omwg"
@@ -51,7 +51,7 @@
     {
       "title": "LibGDX Maze Generator and AI Solver",
       "sub": "2018",
-      "icon": "android_logo_icon.png",
+      "icon": "java_logo_icon.png",
       "description": "Using the LibGDX Game Engine, I created a maze generator, which then via another routine, solves the generated maze visually.",
       "image": "",
       "link": "https://github.com/njdwklopper/maze-solver-libgdx"
