@@ -7,9 +7,8 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content no-padding class="github-page">
+<ion-content>
   <ion-grid wrap-reverse>
-    <ion-label class="github-click-label">Click on any of the cards to view the GitHub Project...</ion-label>
     <ion-row>
       <ion-col *ngFor="let project of projects">
         <app-portfolio-item [project]="project"></app-portfolio-item>

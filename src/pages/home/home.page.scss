@@ -6,17 +6,15 @@
   margin: 0;
 }
 
-.back-image{  max-height: 45vh;
+.back-image {
+  max-height: 220px;
   margin: 13px;
   position: relative;
   overflow: hidden;
 }
 
 .mug-img {
-  max-height: 17vh;
-  max-width: 15vh;
   position: absolute;
-  //top: 3%;
-  left: 1%;
-  bottom: 3%;
+  left: 10px;
+  bottom: 10px;
 }

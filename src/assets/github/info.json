@@ -4,7 +4,7 @@
       "title": "This Portfolio Web Page",
       "sub": "2018",
       "icon": "ionic_logo_icon.png",
-      "description": "Written in Ionic 4 and Angular 6, static Json objects that represent THIS data, but fetched via Rx reactive structures",
+      "description": "Written in Ionic 4 and Angular 6, static Json objects that represent THIS data, but fetched via Rx reactive structures\n\nClick on any of the cards in the application to view any additional information.",
       "image": "",
       "link": "https://github.com/njdwklopper/portfolio"
     },

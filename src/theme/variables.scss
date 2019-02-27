@@ -114,3 +114,8 @@
     padding: 16px 16px 0 16px;
   }
 }
+
+ion-content {
+  --background: var(--ion-color-light-shade);
+  padding: 0 !important;
+}
