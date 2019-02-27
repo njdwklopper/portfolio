@@ -5,70 +5,80 @@
       "sub": "2018",
       "icon": "android_logo_icon.png",
       "description": "My first personal commercial Android application. Released end of November 2018.\n\nMade a Free version and a Paid version, nearly making 2+ sales a day, without any marketing.\n\nThe Application helps a niche, where there is problems with Reddit's Video Media files, that do not download and share properly on Mobile.\n\nThe App can also download other media types like Gifs, Streamables, Gyfcat, Giphy just to name a few, where ever user desires.\n\nThe media can then easily be shared and VIEWed later as videos.",
-      "image": "viewdeo.png"
+      "image": "viewdeo.png",
+      "link": ""
     },
     {
       "title": "Timester",
       "sub": "2009",
       "icon": "android_logo_icon.png",
       "description": "My very first Android Application. The idea and art was from a friend.\n\n The idea was about a little hamster that runs on a wheel which \"powers\" the clock.\n\nThe hamster would also have cycles during the day, where it would take a lunch break, sleep, struggle to wake up, etc.\n\nI'm now planning to make an Android WearOs version and an updated LWP version soon.",
-      "image": "timester.jpg"
+      "image": "timester.jpg",
+      "link": ""
     },
     {
       "title": "Club 21",
       "sub": "2006",
       "icon": "j2me_logo_icon.png",
       "description": "My first Mobile Application Game with socket server connection.\n\nGreat Dealing animations and a first Black Jack Game in South Africa.\n\nThe game was very popular on Mobile App Booklets (Before App stores).",
-      "image": "club21.png"
+      "image": "club21.png",
+      "link": ""
     },
     {
       "title": "Pirate's Pearls",
       "sub": "2006",
       "icon": "j2me_logo_icon.png",
       "description": "My first Mobile Action Game, the game was a popular match 3 game from that time.",
-      "image": "piratePearls.png"
+      "image": "piratePearls.png",
+      "link": ""
     },
     {
       "title": "Pharaoh's Fortune",
       "sub": "2007",
       "icon": "j2me_logo_icon.png",
       "description": "Marketing Game for a new Casino, a Slot Machine where players could win actual prizes (Not Money).\n\nWinners was determined Server-Side, but via Random Draw.\n\nI used a blur effect from Photoshop to FAKE the perceived speed when the wheels spun.\n\nThis was in 2007 and I have never seen anyone else do this effect in this manner, which I was quite proud of.",
-      "image": "pharaohsFortune.png"
+      "image": "pharaohsFortune.png",
+      "link": ""
     },
     {
       "title": "Pyramids of Treasure",
       "sub": "2007",
       "icon": "j2me_logo_icon.png",
       "description": "Another slot machine game, based on the same engine I used before.\n\nIt was for another company and had more elaborate win combinations, also a Server-Side draw-to-win.",
-      "image": "pyramidsOfTreasure.png"
+      "image": "pyramidsOfTreasure.png",
+      "link": ""
     },
     {
       "title": "Taxi Jam",
       "sub": "2007",
       "icon": "j2me_logo_icon.png",
       "description": "Rush Hour game clone, but with a South African twist.\n\nThe vehicles even took damage when trying to pass an impassible car (block).",
-      "image": "taxiJam.png"
+      "image": "taxiJam.png",
+      "link": ""
     },
     {
       "title": "Tetra Lift",
       "sub": "2008",
       "icon": "j2me_logo_icon.png",
       "description": "A marketing campaign from Puma's shoes.\n\nThe idea was that the shoes were so light, they float.\n\nWe made a Tetris clone, where the blocks would float upwards, instead of dropping downwards.\n\nThe shoes were in the Tetris Blocks, which \"made\" them float.",
-      "image": "tetraLift.png"
+      "image": "tetraLift.png",
+      "link": ""
     },
     {
       "title": "Fedhealth Medical",
       "sub": "2010",
       "icon": "android_logo_icon.png",
       "description": "Here I made hand rolled animations for navigation and menus, making it quite a flashy Android Application for the time.\n\nIt was a dual purpose App for both Brokers and Clients.",
-      "image": ""
+      "image": "",
+      "link": ""
     },
     {
       "title": "//TODO",
       "sub": "2019",
       "icon": "",
       "description": "Still adding projects (Android, Blackberry, Web, Spring, etc).\n\n//TODO: Adding better description for above projects...",
-      "image": ""
+      "image": "",
+      "link": ""
     }
   ]
 }

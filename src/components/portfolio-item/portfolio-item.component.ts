@@ -18,4 +18,10 @@ export class PortfolioItemComponent {
     getImageIcon(image) {
         return `./assets/icon/${image}`;
     }
+
+    openLink(link) {
+        if (link) {
+            window.open(link);
+        }
+    }
 }

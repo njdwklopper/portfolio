@@ -6,8 +6,7 @@ import {RouterModule, Routes} from '@angular/router';
 import {IonicModule} from '@ionic/angular';
 
 import {PortfolioPage} from './portfolio.page';
-import {PortfolioItemComponent} from '../../components/portfolio-item/portfolio-item.component';
-import {CircleIconComponent} from '../../components/circle-icon/circle-icon.component';
+import {ComponentModule} from '../../components/component.module';
 
 const routes: Routes = [
     {
@@ -20,13 +19,12 @@ const routes: Routes = [
     imports: [
         CommonModule,
         FormsModule,
+        ComponentModule,
         IonicModule,
         RouterModule.forChild(routes)
     ],
     declarations: [
-        PortfolioPage,
-        PortfolioItemComponent,
-        CircleIconComponent
+        PortfolioPage
     ]
 })
 export class PortfolioPageModule {

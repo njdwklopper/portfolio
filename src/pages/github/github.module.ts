@@ -6,7 +6,7 @@ import {RouterModule, Routes} from '@angular/router';
 import {IonicModule} from '@ionic/angular';
 
 import {GithubPage} from './github.page';
-import {GithubItemComponent} from '../../components/github-item/github-item.component';
+import {ComponentModule} from '../../components/component.module';
 
 const routes: Routes = [
     {
@@ -19,12 +19,12 @@ const routes: Routes = [
     imports: [
         CommonModule,
         FormsModule,
+        ComponentModule,
         IonicModule,
         RouterModule.forChild(routes)
     ],
     declarations: [
-        GithubPage,
-        GithubItemComponent
+        GithubPage
     ]
 })
 export class GithubPageModule {
