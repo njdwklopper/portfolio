@@ -17,6 +17,14 @@
       "link": ""
     },
     {
+      "title": "Polo GT, Date Drive",
+      "sub": "2011",
+      "icon": "android_logo_icon.png",
+      "description": "Created an app that was used to gather data for a marketing campaign called Date Drive.\n\nIt was for the then new Polo GT from Volkswagen.\n\nThe App connected to a bluetooth heart-rate monitor, which was a bit of hacking as the device was meant to connect to another device, it would then broadcast the data to a crew over a 3G network.\n\nThe heart-rate was measured of couples going on a date in a Polo GT.",
+      "image": "https://image.iol.co.za/image/1/process/1600x160000?source=https://inm-baobab-prod-eu-west-1.s3.amazonaws.com/public/inm/media/image/2018/09/10/73276626133155_Bunny.jpg",
+      "link": "https://www.gq.co.za/style/i-think-i-love-my-wife-16531937"
+    },
+    {
       "title": "Club 21",
       "sub": "2006",
       "icon": "j2me_logo_icon.png",
@@ -76,7 +84,7 @@
       "title": "//TODO",
       "sub": "2019",
       "icon": "",
-      "description": "Still adding projects (Android, Blackberry, Web, Spring, etc).\n\n//TODO: Adding better description for above projects.\n//TODO: Fixing images ",
+      "description": "Still adding projects (Android, Blackberry, Web, Spring, etc).\n\n//TODO: Adding better description for above projects.\n//TODO: The display images of these cards need to look better :) ",
       "image": "",
       "link": ""
     }

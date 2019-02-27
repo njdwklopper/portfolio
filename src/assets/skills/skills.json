@@ -6,18 +6,28 @@
       "icon": "call"
     },
     {
-      "skill": "Android Native Developer",
+      "skill": "J2ME/Blackberry Developer",
+      "time": "3 years",
+      "icon": "trash"
+    },
+    {
+      "skill": "Android Developer",
       "time": "10 years",
       "icon": "phone-portrait"
     },
     {
-      "skill": "Angular+",
+      "skill": "Game Development (2D)",
+      "time": "4 years",
+      "icon": "logo-game-controller-a"
+    },
+    {
+      "skill": "Ionic (Angular)",
       "time": "6 Months",
-      "icon": "globe"
+      "icon": "logo-ionitron"
     },
     {
       "skill": "JAVA",
-      "time": "13 years",
+      "time": "14 years",
       "icon": "beer"
     },
     {
@@ -26,9 +36,34 @@
       "icon": "umbrella"
     },
     {
+      "skill": "Spring-boot",
+      "time": "2 years",
+      "icon": "leaf"
+    },
+    {
       "skill": "Typescript",
       "time": "6 Months",
-      "icon": "logo-javascript"
+      "icon": "logo-nodejs"
+    },
+    {
+      "skill": "SVN",
+      "time": "4 years",
+      "icon": "thumbs-down"
+    },
+    {
+      "skill": "Git",
+      "time": "9 years",
+      "icon": "logo-octocat"
+    },
+    {
+      "skill": "Music/Audio Production",
+      "time": "18 years",
+      "icon": "musical-notes"
+    },
+    {
+      "skill": "Sound Engineer",
+      "time": "5 years",
+      "icon": "options"
     }
   ]
 }

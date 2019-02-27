@@ -16,31 +16,19 @@ export class KlopperService {
     }
 
     getPortfolioInfo(): Observable<any> {
-        const result: Observable<Object> = this.http.get(`${KlopperService.PROJECTS_URL}info.json`);
-        console.log('View Result Response: ' + JSON.stringify(result));
-        return result.pipe(
-            catchError(
-                (error: HttpErrorResponse) => {
-                    return Observable.throw(error);
-                }
-            )
-        );
+        return this.getData(`${KlopperService.PROJECTS_URL}info.json`);
     }
 
     getSkills(): Observable<any> {
-        const result: Observable<Object> = this.http.get(`${KlopperService.SKILLS_URL}skills.json`);
-        console.log('View Result Response: ' + JSON.stringify(result));
-        return result.pipe(
-            catchError(
-                (error: HttpErrorResponse) => {
-                    return Observable.throw(error);
-                }
-            )
-        );
+        return this.getData(`${KlopperService.SKILLS_URL}skills.json`);
     }
 
     getGithub(): Observable<any> {
-        const result: Observable<Object> = this.http.get(`${KlopperService.GITHUB_URL}info.json`);
+        return this.getData(`${KlopperService.GITHUB_URL}info.json`);
+    }
+
+    getData(get): Observable<any> {
+        const result: Observable<Object> = this.http.get(get);
         console.log('View Result Response: ' + JSON.stringify(result));
         return result.pipe(
             catchError(
