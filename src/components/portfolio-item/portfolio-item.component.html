@@ -1,13 +1,28 @@
-<ion-card no-padding class="portfolio-card">
-    <ion-grid>
-        <ion-row class="card-header">
-            <ion-img *ngIf="project.icon" [src]="getImageIcon(project.icon)" class="car-icon"></ion-img>
-            <ion-label class="card-title">
-                {{project.title}}
-            </ion-label>
+<ion-card class="portfolio-card">
+    <ion-grid no-padding no-margin>
+        <ion-row wrap>
+            <ion-grid no-padding no-margin>
+                <ion-row wrap style="background-color: var(--ion-color-primary-tint)">
+                    <ion-col size="auto" style="background-color: var(--ion-color-primary)">
+                        <app-circle-icon [icon]="getImageIcon(project.icon)"></app-circle-icon>
+                    </ion-col>
+                    <ion-col>
+                        <ion-row>
+                            <ion-label class="card-title">
+                                {{project.title}}
+                            </ion-label>
+                        </ion-row>
+                        <ion-row>
+                            <ion-label class="card-sub">
+                                {{project.sub}}
+                            </ion-label>
+                        </ion-row>
+                    </ion-col>
+                </ion-row>
+            </ion-grid>
         </ion-row>
         <ion-row class="card-image-holder" *ngIf="project.image">
-            <img src="{{getImageURL(project.image)}}" alt="./assets/shapes.svg">
+            <img src="{{getImageURL(project.image)}}" alt="./assets/shapes.svg" style="height: 26vh">
         </ion-row>
         <ion-row class="card-description">
             <p style="margin-bottom: 2rem;white-space:pre-wrap;">{{project.description}}</p>
