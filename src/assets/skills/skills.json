@@ -21,6 +21,11 @@
       "icon": "logo-game-controller-a"
     },
     {
+      "skill": "Unreal Development (Blueprints)",
+      "time": "1 year",
+      "icon": "logo-game-controller-b"
+    },
+    {
       "skill": "Ionic (Angular)",
       "time": "6 Months",
       "icon": "logo-ionitron"
@@ -36,19 +41,34 @@
       "icon": "umbrella"
     },
     {
-      "skill": "Spring-boot",
-      "time": "2 years",
-      "icon": "leaf"
+      "skill": "Reactive Development (Rx)",
+      "time": "4 years",
+      "icon": "logo-buffer"
+    },
+    {
+      "skill": "CI/CD",
+      "time": "10 years",
+      "icon": "sync"
+    },
+    {
+      "skill": "Agile/Kanban/Scrum",
+      "time": "10 years",
+      "icon": "trending-up"
+    },
+    {
+      "skill": "Gradle",
+      "time": "6 years",
+      "icon": "hammer"
+    },
+    {
+      "skill": "Maven",
+      "time": "6 years",
+      "icon": "today"
     },
     {
       "skill": "Typescript",
       "time": "6 Months",
       "icon": "logo-nodejs"
-    },
-    {
-      "skill": "SVN",
-      "time": "4 years",
-      "icon": "thumbs-down"
     },
     {
       "skill": "Git",
