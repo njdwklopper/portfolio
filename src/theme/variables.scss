@@ -78,7 +78,7 @@
   padding: 0 !important;
   --background: var(--ion-color-light);
   height: 100% !important;
-  min-width: 44vh;
+  min-width: 350px;
 
   .card-title {
     color: var(--ion-color-dark);
@@ -111,6 +111,6 @@
   }
 
   .card-description {
-    padding: 1vh 1vw 0 1vw;
+    padding: 16px 16px 0 16px;
   }
 }
