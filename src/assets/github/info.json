@@ -53,7 +53,7 @@
       "sub": "2018",
       "icon": "java_logo_icon.png",
       "description": "Using the LibGDX Game Engine, I created a maze generator, which then via another routine, solves the generated maze visually.",
-      "image": "",
+      "image": "https://github.com/njdwklopper/maze-solver-libgdx/raw/master/maze.gif",
       "link": "https://github.com/njdwklopper/maze-solver-libgdx"
     },
     {
