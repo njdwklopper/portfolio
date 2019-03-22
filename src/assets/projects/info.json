@@ -9,10 +9,42 @@
       "link": "https://play.google.com/store/apps/details?id=com.tegnatiek.veddit"
     },
     {
+      "title": "Standard Bank App",
+      "sub": "2013",
+      "icon": "android_logo_icon.png",
+      "description": "Working with teams within an Agile approach, we designed and engineered this application from the ground up.\n\nUsing best SOLID practices, we modularised the features, which also became the teams.\n\nFeatures were containerised and improved continuous delivery of the application, where no team had to depend on another.\n\nWe worked on a phone app at first and then enhanced it as a universal app later, which could span to Tablet devices.",
+      "image": "sbg.png",
+      "link": "https://play.google.com/store/apps/details?id=com.sbg.mobile.phone"
+    },
+    {
+      "title": "Fed Health Medical Aid",
+      "sub": "2012",
+      "icon": "android_logo_icon.png",
+      "description": "Here I experimented and got to use lots of snappy custom made animations within the application\n\nI created a 3D effect of turning over the virtual medical aid card, so that a customer could view the details on the back.\\I also made an interesting custom spinning animation with the menu icons.",
+      "image": "fedhealth.png",
+      "link": "https://aon.co.za/assets/docs/healthcare/2015/medical-scheme-documents/fedhealth/communication/zoom_-_fedhealth_apps.pdf"
+    },
+    {
+      "title": "MarkitShare",
+      "sub": "2012",
+      "icon": "android_logo_icon.png",
+      "description": "My first Tablet only application developed and my first ime using Google Maps API within the Android SDK.\n\nEven wpn best app of the year awards in South Africa\n(Click image to view article)\n\nThe application was aimed at real-estate agents selling properties and needed information on hand to show potential buyers.\n\nThe idea was to have information available about schools, safety, value, etc of immediate areas on a map.\n\n",
+      "image": "markitshare.png",
+      "link": "https://www.itnewsafrica.com/2013/08/mtn-crowns-the-best-south-african-apps/"
+    },
+    {
+      "title": "VCPay",
+      "sub": "2011",
+      "icon": "android_logo_icon.png",
+      "description": "My first commercial enterprise level application on the Android Platform.\n\nDeveloped side-by-side with my colleague who worked on the iOS version at the same time, sharing design ideas and UI/UX approaches.\n\nExperimented with some cool animations and custom views that didn't exist in Android at the time.\n\nThe App is still widely used today, and the company's name has changed since.",
+      "image": "vcpay.png",
+      "link": "https://play.google.com/store/apps/details?id=za.co.vcpay"
+    },
+    {
       "title": "Timester",
       "sub": "2009",
       "icon": "android_logo_icon.png",
-      "description": "My very first Android Application. The idea and art was from a friend.\n\n The idea was about a little hamster that runs on a wheel which \"powers\" the clock.\n\nThe hamster would also have cycles during the day, where it would take a lunch break, sleep, struggle to wake up, etc.\n\nI'm now planning to make an Android WearOs version and an updated LWP version soon.",
+      "description": "My very first Android Application and a personal project, while I was still a J2ME/Blackberry developer. The idea and art was from a friend.\n\n The idea was about a little hamster that runs on a wheel which \"powers\" the clock.\n\nThe hamster would also have cycles during the day, where it would take a lunch break, sleep, struggle to wake up, etc.\n\nI'm now planning to make an Android WearOs version and an updated LWP version soon.",
       "image": "timester.jpg",
       "link": "https://play.google.com/store/apps/details?id=za.co.bash.lwp"
     },
