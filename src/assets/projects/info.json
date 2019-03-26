@@ -105,18 +105,10 @@
       "link": ""
     },
     {
-      "title": "Fedhealth Medical",
-      "sub": "2010",
-      "icon": "android_logo_icon.png",
-      "description": "Here I made hand rolled animations for navigation and menus, making it quite a flashy Android Application for the time.\n\nIt was a dual purpose App for both Brokers and Clients.",
-      "image": "",
-      "link": ""
-    },
-    {
       "title": "//TODO",
       "sub": "2019",
       "icon": "",
-      "description": "Still adding projects (Android, Blackberry, Web, Spring, etc).\n\n//TODO: Adding better description for above projects.\n//TODO: The display images of these cards need to look better :) ",
+      "description": "Still adding projects (Android, Blackberry, Web, Spring, etc).",
       "image": "",
       "link": ""
     }

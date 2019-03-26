@@ -13,7 +13,7 @@ export class AppComponent {
             icon: 'home'
         },
         {
-            title: 'Portfolio (WIP)',
+            title: 'Portfolio',
             url: '/portfolio',
             icon: 'paper'
         },
