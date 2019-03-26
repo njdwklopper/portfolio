@@ -35,7 +35,7 @@ export class AppComponent {
         {
             title: 'Contact',
             url: '/contact',
-            icon: 'contacts'
+            icon: 'mail'
         }
     ];
 
