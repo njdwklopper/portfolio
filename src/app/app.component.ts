@@ -1,47 +1,52 @@
-import { Component } from '@angular/core';
-import { Platform } from '@ionic/angular';
+import {Component} from '@angular/core';
+import {Platform} from '@ionic/angular';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: 'app.component.html'
+    selector: 'app-root',
+    templateUrl: 'app.component.html'
 })
 export class AppComponent {
-  public appPages = [
-    {
-      title: 'Home',
-      url: '/home',
-      icon: 'home'
-    },
-    {
-      title: 'Portfolio (WIP)',
-      url: '/portfolio',
-      icon: 'paper'
-    },
-    // {
-    //   title: 'Experience',
-    //   url: '/experience',
-    //   icon: 'logo-android'
-    // },
-    {
-      title: 'Skills List',
-      url: '/list',
-      icon: 'list'
-    },
-    {
-      title: 'Github',
-      url: '/github',
-      icon: 'git-branch'
+    public appPages = [
+        {
+            title: 'Home',
+            url: '/home',
+            icon: 'home'
+        },
+        {
+            title: 'Portfolio (WIP)',
+            url: '/portfolio',
+            icon: 'paper'
+        },
+        {
+            title: 'Skills List',
+            url: '/list',
+            icon: 'list'
+        },
+        {
+            title: 'Github',
+            url: '/github',
+            icon: 'git-branch'
+        },
+        {
+            title: 'References',
+            url: '/references',
+            icon: 'contacts'
+        },
+        {
+            title: 'Contact',
+            url: '/contact',
+            icon: 'contacts'
+        }
+    ];
+
+    constructor(
+        private platform: Platform
+    ) {
+        this.initializeApp();
     }
-  ];
 
-  constructor(
-    private platform: Platform
-  ) {
-    this.initializeApp();
-  }
-
-  initializeApp() {
-    this.platform.ready().then(() => {
-    });
-  }
+    initializeApp() {
+        this.platform.ready().then(() => {
+        });
+    }
 }

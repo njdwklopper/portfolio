@@ -1,0 +1,17 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="references"></ion-back-button>
+        </ion-buttons>
+        <ion-title>View</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <pdf-viewer style="max-width: 100% !important;"
+            [src]=pdfToDisplay
+            [autoresize]="true"
+            [original-size]="false"
+            [fit-to-page]="true">
+    </pdf-viewer>
+</ion-content>

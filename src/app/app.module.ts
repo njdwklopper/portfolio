@@ -12,7 +12,8 @@ import {ComponentModule} from '../components/component.module';
 
 @NgModule({
     declarations: [
-        AppComponent],
+        AppComponent
+    ],
     entryComponents: [],
     imports: [
         BrowserModule,

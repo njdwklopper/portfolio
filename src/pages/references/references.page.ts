@@ -2,11 +2,11 @@ import {Component, OnInit} from '@angular/core';
 import {KlopperService} from '../../providers/klopper.service';
 
 @Component({
-    selector: 'app-list',
-    templateUrl: 'list.page.html',
-    styleUrls: ['list.page.scss']
+    selector: 'app-references',
+    templateUrl: './references.page.html',
+    styleUrls: ['./references.page.scss'],
 })
-export class ListPage implements OnInit {
+export class ReferencesPage implements OnInit {
 
     public items: Array<{ skill: string; time: string; icon: string }> = [];
 
@@ -14,7 +14,7 @@ export class ListPage implements OnInit {
     }
 
     ngOnInit() {
-        this.projectService.getSkills().subscribe(list => {
+        this.projectService.getReferences().subscribe(list => {
             console.log(JSON.stringify(list));
             this.items = list.skills;
         }, error => {

@@ -1,0 +1,20 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+        <ion-title>References (Click to view)</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content color="light">
+    <ion-list>
+        <ion-item *ngFor="let item of items" routerLink="/view-pdf/{{item.file}}">
+            <ion-icon [name]="item.icon" slot="start"></ion-icon>
+            {{item.name}}
+            <div class="item-note" slot="end">
+                {{item.time}}
+            </div>
+        </ion-item>
+    </ion-list>
+</ion-content>
