@@ -26,8 +26,13 @@
       "icon": "logo-game-controller-b"
     },
     {
+      "skill": "Unity Development",
+      "time": "1 year",
+      "icon": "logo-game-controller-a"
+    },
+    {
       "skill": "Ionic (Angular)",
-      "time": "6 Months",
+      "time": "8 Months",
       "icon": "logo-ionitron"
     },
     {
@@ -41,18 +46,13 @@
       "icon": "umbrella"
     },
     {
-      "skill": "Reactive Development (Rx)",
-      "time": "4 years",
-      "icon": "logo-buffer"
-    },
-    {
       "skill": "CI/CD",
-      "time": "10 years",
+      "time": "6 years",
       "icon": "sync"
     },
     {
       "skill": "Agile/Kanban/Scrum",
-      "time": "10 years",
+      "time": "6 years",
       "icon": "trending-up"
     },
     {
@@ -67,7 +67,7 @@
     },
     {
       "skill": "Typescript",
-      "time": "6 Months",
+      "time": "8 Months",
       "icon": "logo-nodejs"
     },
     {
