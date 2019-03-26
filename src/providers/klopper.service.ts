@@ -11,6 +11,7 @@ export class KlopperService {
     static SKILLS_URL = `./assets/skills/`;
     static GITHUB_URL = `./assets/github/`;
     static REFER_URL = `./assets/references/`;
+    static EDU_URL = `./assets/edu/`;
 
     constructor(private http: HttpClient) {
         console.log('Hello ProjectsProvider Provider');
@@ -30,6 +31,10 @@ export class KlopperService {
 
     getReferences(): Observable<any> {
         return this.getData(`${KlopperService.REFER_URL}references.json`);
+    }
+
+    getEducation(): Observable<any> {
+        return this.getData(`${KlopperService.EDU_URL}education.json`);
     }
 
     getData(get): Observable<any> {

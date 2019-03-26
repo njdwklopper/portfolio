@@ -1,0 +1,20 @@
+{
+  "qualifications": [
+    {
+      "title": "C.T.I (NCC Cambridge)",
+      "sub": "Diploma (2006)",
+      "icon": "java_logo_icon.png",
+      "description": "International Diploma in Information Systems Internet Development",
+      "image": "",
+      "link": "view-pdf/NCC CTI Diploma.pdf"
+    },
+    {
+      "title": "Coursera (Online)",
+      "sub": "Certificate (2018)",
+      "icon": "kotlin_logo_icon.png",
+      "description": "Kotlin Development for Java developers",
+      "image": "",
+      "link": "view-pdf/Coursera Certificate.pdf"
+    }
+  ]
+}

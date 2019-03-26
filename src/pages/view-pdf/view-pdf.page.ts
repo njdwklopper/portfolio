@@ -14,7 +14,7 @@ export class ViewPdfPage implements OnInit {
 
     ngOnInit() {
         this.router.params.subscribe(params => {
-            this.pdfToDisplay = '../assets/references/' + params['item'];
+            this.pdfToDisplay = '../assets/pdf/' + params['item'];
         });
         console.log('PDF: ' + this.pdfToDisplay);
     }

@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Education</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-grid wrap-reverse>
+    <ion-row>
+      <ion-col *ngFor="let project of qualifications">
+        <app-portfolio-item [project]="project"></app-portfolio-item>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

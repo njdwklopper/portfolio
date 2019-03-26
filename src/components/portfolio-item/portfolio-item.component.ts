@@ -29,7 +29,11 @@ export class PortfolioItemComponent {
 
     openLink(link) {
         if (link) {
-            window.open(link);
+            if (link.indexOf('pdf') >= 0) {
+                window.open(link, '_self');
+            } else {
+                window.open(link);
+            }
         }
     }
 }

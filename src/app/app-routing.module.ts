@@ -35,6 +35,10 @@ const routes: Routes = [
     {
         path: 'view-pdf/:item',
         loadChildren: `${_path}view-pdf/view-pdf.module#ViewPdfPageModule`
+    },
+    {
+        path: 'education',
+        loadChildren: `${_path}education/education.module#EducationPageModule`
     }
 ];
 

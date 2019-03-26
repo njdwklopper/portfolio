@@ -28,6 +28,11 @@ export class AppComponent {
             icon: 'git-branch'
         },
         {
+            title: 'Education',
+            url: '/education',
+            icon: 'laptop'
+        },
+        {
             title: 'References',
             url: '/references',
             icon: 'contacts'
