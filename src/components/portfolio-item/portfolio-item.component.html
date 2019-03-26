@@ -24,7 +24,7 @@
         <ion-row class="card-image-holder" *ngIf="project.image">
             <ion-img src="{{getImageURL(project.image)}}" alt="./assets/shapes.svg" ></ion-img>
         </ion-row>
-        <ion-row class="card-description">
+        <ion-row class="card-description" *ngIf="project.description">
             <p style="margin-bottom: 2rem;white-space:pre-wrap;">{{project.description}}</p>
         </ion-row>
     </ion-grid>
